@@ -18,7 +18,7 @@
         android:layout_alignBottom="@+id/textView_distance_string"
         android:layout_marginLeft="15dp"
         android:layout_toRightOf="@+id/textView_distance_string" 
-        android:text=""/>
+        android:text="12 cm"/>
     
     <ToggleButton 
 		android:textOn="Turn OFF" 
