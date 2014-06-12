@@ -58,7 +58,6 @@ void loop()
         bufWrite[0] = (uint8_t)(2076/(distance - 11) + 4);  //  calculate the distance in centimeters
   
         adk.write(sizeof(bufWrite), (uint8_t *)bufWrite); //write the distance to Android
-        Serial.println(bufWrite[0]);
     } else {
       digitalWrite(LED_PIN, LOW);
     }  
